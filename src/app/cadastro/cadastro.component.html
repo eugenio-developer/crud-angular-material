@@ -38,7 +38,7 @@
                         <div fxLayout="column" fxFlex="400px">
                         <mat-form-field class="full-width">
                             <mat-label>Data Nascimento: *</mat-label>
-                            <input [(ngModel)]="cliente.dataNascimento" name="dataNascimento" matInput type="text" placeholder="Digite sua data de nascimento">
+                            <input [(ngModel)]="cliente.dataNascimento" name="dataNascimento" matInput type="date" placeholder="Digite sua data de nascimento">
                         </mat-form-field>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                         </div>
                          <div fxFlex="column">
                             <button fxFlex="300px"  mat-flat-button>
-                                <mat-icon fontIcon="refresh"></mat-icon>
+                                <mat-icon fontIcon="refresh"></mat-icon >
                                 Atualizar
                             </button>
                         </div>
